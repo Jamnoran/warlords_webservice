@@ -26,6 +26,9 @@
             $addToList = false;
         }
     }
+    if($port == null || $version == null){
+        $addToList = false;
+    }
     if($addToList){
         //insert data here
         $id = uniqid();
